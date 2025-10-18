@@ -1,3 +1,92 @@
-body {
-  background: green;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#brandlogo {
+  width: 100px;
+  height: 100px;
+  margin-left: 50%;
+}
+#over {
+  background-color: #ede8e4;
+}
+#head {
+  background-color: #ede8e4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffd1;
+  text-align: center;
+  text-shadow: #001fff;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 45px;
+}
+
+.ps {
+  font-size: 45px;
+  padding: 5px;
+
+  margin-left: 13.5%;
+  display: inline-block;
+}
+
+#ls {
+  background-color: #dadae6;
+  border: #dadae6;
+  border-radius: 40%;
+}
+
+#side {
+  text-align: right;
+  display: inline-block;
+  margin-left: 75%;
+}
+
+#list {
+  text-align: center;
+  background-color: #f6fcfd;
+  color: #00004f;
+  padding: 40px;
+  width: 400px;
+  height: 200px;
+  display: list-item;
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 0.5%;
+}
+
+#inbtw {
+  text-align: center;
+  background-color: #f6fcfd;
+  color: #00004f;
+  padding: 40px;
+  width: 400px;
+  height: 200px;
+  font-size: 25px;
+  margin-left: 4.75%;
+  display: inline-block;
+}
+
+#unlist {
+  text-align: center;
+  background-color: #f6fcfd;
+  color: #00004f;
+  padding: 40px;
+  width: 400px;
+  height: 200px;
+  display: list-item;
+  display: inline-block;
+  margin-left: 4.75%;
+  margin-top: 2%;
+}
+
+#final {
+  background-color: #00004f;
+  color: #dadae6;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  display: block;
 }
