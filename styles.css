@@ -39,6 +39,17 @@ nav {
   font-size: 1.8rem;
   font-weight: 700;
   color: #5a3e2b;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.logo span {
+  display: inline-block;
+  margin-left: 8px;
 }
 
 .nav-links {
